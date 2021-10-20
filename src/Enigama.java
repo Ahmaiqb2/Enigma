@@ -125,7 +125,6 @@ public class Enigama {
     }
 
     public static int shiftNummer(int nummer, int shift) {
-        //Hele denne kode er fundet fra https://github.com/OliverAndreasen/enigma/blob/master/src/com/company/Main.java
         int shiftNummer = nummer + shift;
         if (shiftNummer > 30) {
             shiftNummer = Math.abs(shiftNummer - 29);
